@@ -14,7 +14,8 @@ public class AccountHolder {
 		static private String address;
 		
 		public AccountHolder(int id, String address) {
-			
+			this.id = id;
+			this.address = address;
 		}
 		
 		public int getNextID() {
