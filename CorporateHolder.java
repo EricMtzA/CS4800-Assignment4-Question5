@@ -7,7 +7,7 @@ package question5;
  * @author Eric Alonso Martinez
  *
  */
-public class CorporateHolder {
+public class CorporateHolder extends AccountHolder {
 	private String contact;
 
 	/**
