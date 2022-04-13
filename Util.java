@@ -9,8 +9,6 @@ package question5;
  */
 public interface Util {
 	
-	public default String convertNameUpperCase(String name) {
-		return name;
-		
-	}
+	public String convertNameUpperCase(String name);		
+	
 }
