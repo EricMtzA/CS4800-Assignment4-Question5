@@ -7,7 +7,7 @@ package question5;
  * @author Eric Alonso Martinez
  *
  */
-public class IndividualHolder implements Util {
+public class IndividualHolder extends AccountHolder implements Util {
 		private String name;
 		private String ssn;
 		
