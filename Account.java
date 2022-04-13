@@ -13,15 +13,16 @@ public class Account {
 		
 		
 		public Account(double amount, AccountHolder holder) {
-			
+			this.amount = amount;
+			this.holder = holder;
 		}
 		
 		public void deposit(double amount) {
-			
+			this.amount +=  amount;
 		}
 		
 		public void withdraw(double amount) {
-			
+			this.amount -= amount;
 		}
 		
 		/**
