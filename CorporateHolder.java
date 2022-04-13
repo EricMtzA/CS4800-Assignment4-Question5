@@ -14,7 +14,8 @@ public class CorporateHolder extends AccountHolder {
 	 * @param contact
 	 */
 	public CorporateHolder(int ID, String address, String contact) {
-
+		super(ID, address);
+		this.contact = contact;
 	}
 
 	/**
