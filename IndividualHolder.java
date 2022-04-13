@@ -12,7 +12,9 @@ public class IndividualHolder extends AccountHolder implements Util {
 		private String ssn;
 		
 		public IndividualHolder(int ID, String address, String name, String ssn) {
-			
+			super(ID, address);
+			this.name = name;
+			this.ssn = ssn;
 		}
 
 		/**
